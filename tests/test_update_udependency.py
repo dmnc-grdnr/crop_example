@@ -2,9 +2,9 @@ import unittest
 import xml.etree.ElementTree as ET
 import os
 import tempfile
-from src.crop_example.automate_udependency import process_xmi
+from src.crop_example import process_xmi
 
-class TestAutomateUDependency(unittest.TestCase):
+class TestUDependency(unittest.TestCase):
     def setUp(self):
         self.namespaces = {
             'xmi': 'http://www.omg.org/XMI',

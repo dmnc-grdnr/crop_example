@@ -11,6 +11,7 @@ dependencies = [
     "dkpro-cassis @ git+https://github.com/dkpro/dkpro-cassis",
     "cas-visualizer (>=0.1.5,<0.2.0)",
     "click (==8.2.1)",
+    "pytest (>=9.0.3,<10.0.0)",
 ]
 
 [tool.poetry]
