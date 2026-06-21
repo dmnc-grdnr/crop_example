@@ -1,3 +1,3 @@
-from .update_udependency import process_xmi
+from .update_fs import update_fs, propagate_feature_values
 
-__all__ = ["process_xmi"]
+__all__ = ["update_fs", "propagate_feature_values"]
